@@ -23,19 +23,24 @@ npm install
 ### Running the Project
 Compile the smart contracts:
 ```bash
-npx hardhat compile
+yarn hardhat compile
+```
+
+Generate typechain:
+```bash
+yarn hardhat typechain
 ```
 
 Run tests to ensure everything is set up correctly:
 ```bash
-npx hardhat test
+yarn hardhat test
 ```
 
 ### Deployment
 To deploy the contracts to a network, update the hardhat.config.js with your network details and run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network <your-network>
+yarn hardhat run scripts/deploy.js --network <your-network>
 ```
 
 ### Features
