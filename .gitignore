@@ -1,0 +1,6 @@
+/part1-final/node_modules/
+/part2-final/node_modules/
+/.idea/
+/part2-final/package-lock.json
+/part1-final/yarn.lock
+/part2-final/yarn.lock
